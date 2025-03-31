@@ -1,2 +1,4 @@
 */node_modules/*
 */package-*.json
+*/combined.log
+*.log

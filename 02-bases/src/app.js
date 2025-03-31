@@ -1,8 +1,18 @@
-const getPokemonById = require('./js-foundation/06-promises');
+const { buildLogger } = require('./plugins');
 
-getPokemonById(1).then((pokemon) => { console.log(pokemon)})
-.catch((e) => { console.log(e)})
-.finally(() => console.log('Fin'));
+const logger = buildLogger('app.js');
+
+logger.log('Hola mundo')
+logger.error('Error producido')
+
+
+
+
+// const getPokemonById = require('./js-foundation/06-promises');
+
+// getPokemonById(1).then((pokemon) => { console.log(pokemon)})
+//   .catch((e) => { console.log(e)})
+//   .finally(() => console.log('Fin'));
 
   
 

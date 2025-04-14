@@ -2,3 +2,4 @@
 */package-*.json
 */combined.log
 *.log
+*/output/*

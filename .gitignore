@@ -3,3 +3,5 @@
 */combined.log
 *.log
 */output/*
+*/test-destination/*
+*/coverage/*
